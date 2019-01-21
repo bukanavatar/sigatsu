@@ -41,6 +41,9 @@ class Index extends Component{
                     <link rel="stylesheet" href="/static/css/main.css"/>
                     <link rel="stylesheet" href="/static/css/slick.css"/>
                     <link rel="stylesheet" href="/static/css/slick-theme.css"/>
+                    <link rel="manifest" href="/static/manifest.json"/>
+                    <link rel="shortcut icon" href="/static/favicon.ico" type="image/x-icon"/>
+                    <link rel="icon" href="/static/favicon.ico" type="imag e/x-icon"/>
                     <link href='https://api.mapbox.com/mapbox-gl-js/v0.52.0/mapbox-gl.css' rel='stylesheet'/>
                 </Head>
                 <Navbar/>

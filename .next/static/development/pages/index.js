@@ -98,106 +98,46 @@ var FifthLanding = function FifthLanding() {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "G:\\WebProjects\\nextjs\\ssc\\components\\Footer.js";
+        /* harmony import */
+        var react_lazyload__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-lazyload */ "./node_modules/react-lazyload/lib/index.js");
+        /* harmony import */
+        var react_lazyload__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_lazyload__WEBPACK_IMPORTED_MODULE_1__);
+
 
 
 var Footer = function Footer() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
-    className: "footer",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 2
-    },
-    __self: this
+      className: "footer"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "container",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 3
-    },
-    __self: this
+      className: "container"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "row",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 4
-    },
-    __self: this
+      className: "row"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "col-md-3",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 5
-    },
-    __self: this
+      className: "col-md-3"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_lazyload__WEBPACK_IMPORTED_MODULE_1___default.a, {
+      offset: 100
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: "assets/images/logo-white.png",
+      src: "/static/images/logo-white.png",
     alt: "Anu",
     width: "100",
     style: {
       marginBottom: '32px'
-    },
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6
-    },
-    __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "col-md-3",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    },
-    __self: this
+    }
+  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "col-md-3"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    className: "navHome",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    },
-    __self: this
+      className: "navHome"
   }, "Home"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    className: "navDampak",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10
-    },
-    __self: this
+      className: "navDampak"
   }, "Dampak"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    className: "navPenyebab",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11
-    },
-    __self: this
+      className: "navPenyebab"
   }, "Penyebab"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    className: "navAlat",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 12
-    },
-    __self: this
+      className: "navAlat"
   }, "Alat")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "col-md-3",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 14
-    },
-    __self: this
+      className: "col-md-3"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    className: "navMap",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15
-    },
-    __self: this
-  }, "Map")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h6", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 19
-    },
-    __self: this
-  }, "by Es Mahal"));
+      className: "navMap"
+  }, "Map")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h6", null, "by Es Mahal"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Footer);
@@ -5600,7 +5540,7 @@ function defaultClearTimeout () {
     } catch (e) {
         cachedClearTimeout = defaultClearTimeout;
     }
-} ())
+}());
 function runTimeout(fun) {
     if (cachedSetTimeout === setTimeout) {
         //normal enviroments in sane situations
@@ -5737,7 +5677,9 @@ process.emit = noop;
 process.prependListener = noop;
 process.prependOnceListener = noop;
 
-process.listeners = function (name) { return [] }
+        process.listeners = function (name) {
+            return []
+        };
 
 process.binding = function (name) {
     throw new Error('process.binding is not supported');
@@ -7952,8 +7894,19 @@ function (_Component) {
         rel: "stylesheet",
         href: "/static/css/slick-theme.css"
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
-        href: "https://api.mapbox.com/mapbox-gl-js/v0.52.0/mapbox-gl.css",
-        rel: "stylesheet"
+          rel: "manifest",
+          href: "/static/manifest.json"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
+          rel: "shortcut icon",
+          href: "/static/favicon.ico",
+          type: "image/x-icon"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
+          rel: "icon",
+          href: "/static/favicon.ico",
+          type: "imag e/x-icon"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
+          href: "https://api.mapbox.com/mapbox-gl-js/v0.52.0/mapbox-gl.css",
+          rel: "stylesheet"
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Navbar__WEBPACK_IMPORTED_MODULE_1__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_HeroLanding__WEBPACK_IMPORTED_MODULE_2__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_SecondLanding__WEBPACK_IMPORTED_MODULE_4__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_ThirdLanding__WEBPACK_IMPORTED_MODULE_5__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_FourthLanding__WEBPACK_IMPORTED_MODULE_6__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_FifthLanding__WEBPACK_IMPORTED_MODULE_7__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_SixthLanding__WEBPACK_IMPORTED_MODULE_8__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_SeventhLanding__WEBPACK_IMPORTED_MODULE_9__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Footer__WEBPACK_IMPORTED_MODULE_10__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("script", {
         src: "/static/js/jquery-min.js"
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("script", {
@@ -7969,16 +7922,16 @@ function (_Component) {
 
 /* harmony default export */ __webpack_exports__["default"] = (Index);
     (function (Component, route) {
-      if(!Component) return
+        if (!Component) return;
       if (false) {}
-      module.hot.accept()
-      Component.__route = route
+        module.hot.accept();
+        Component.__route = route;
 
-      if (module.hot.status() === 'idle') return
+        if (module.hot.status() === 'idle') return;
 
-      var components = next.router.components
+        var components = next.router.components;
       for (var r in components) {
-        if (!components.hasOwnProperty(r)) continue
+          if (!components.hasOwnProperty(r)) continue;
 
         if (components[r].Component.__route === route) {
           next.router.update(r, Component)
@@ -8015,5 +7968,5 @@ module.exports = dll_831a3634f66cb1dada0c;
 
 /***/ })
 
-},[[0,"static/runtime/webpack.js"]]]));;
+}, [[0, "static/runtime/webpack.js"]]]));
 //# sourceMappingURL=index.js.map

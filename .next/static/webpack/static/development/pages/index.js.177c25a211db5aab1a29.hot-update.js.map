@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "file": "static/webpack/static\\development\\pages\\index.js.177c25a211db5aab1a29.hot-update.js",
+  "sources": [
+    "webpack:///./components/Footer.js"
+  ],
+  "sourcesContent": [
+    "import LazyLoad from 'react-lazyload';\r\n\r\nconst Footer = ()=>(\r\n    <section className=\"footer\">\r\n        <div className=\"container\">\r\n            <div className=\"row\">\r\n                <div className=\"col-md-3\">\r\n                    <LazyLoad offset={100}>\r\n                    <img src=\"/static/images/logo-white.png\" alt=\"Anu\" width=\"100\" style={{marginBottom:'32px'}}/>\r\n                    </LazyLoad>\r\n                </div>\r\n                <div className=\"col-md-3\">\r\n                    <p className=\"navHome\">Home</p>\r\n                    <p className=\"navDampak\">Dampak</p>\r\n                    <p className=\"navPenyebab\">Penyebab</p>\r\n                    <p className=\"navAlat\">Alat</p>\r\n                </div>\r\n                <div className=\"col-md-3\">\r\n                    <p className=\"navMap\">Map</p>\r\n                </div>\r\n            </div>\r\n        </div>\r\n        <h6>by Es Mahal</h6>\r\n    </section>\r\n);\r\nexport default Footer"
+  ],
+  "mappings": ";;;;;;;;;;;;;;;;AAAA;AACA;AACA;AAAA;AACA;AAAA;AACA;AAAA;AACA;AAAA;AACA;AAAA;AACA;AAAA;AACA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAGA;AAAA;AACA;AAAA;AACA;AAAA;AACA;AAAA;AACA;AAAA;AAEA;AAAA;AACA;AAAA;AAhBA;AACA;AAsBA;;;;A",
+  "sourceRoot": ""
+}

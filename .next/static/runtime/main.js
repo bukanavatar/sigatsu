@@ -9151,9 +9151,8 @@ function getURL() {
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(module, global) {var __WEBPACK_AMD_DEFINE_RESULT__;/*! https://mths.be/punycode v1.4.1 by @mathias */
-;(function(root) {
-
-	/** Detect free variables */
+            (function (root) {
+                /** Detect free variables */
 	var freeExports = typeof exports == 'object' && exports &&
 		!exports.nodeType && exports;
 	var freeModule = typeof module == 'object' && module &&
@@ -11207,7 +11206,7 @@ function defaultClearTimeout () {
     } catch (e) {
         cachedClearTimeout = defaultClearTimeout;
     }
-} ())
+}());
 function runTimeout(fun) {
     if (cachedSetTimeout === setTimeout) {
         //normal enviroments in sane situations
@@ -11344,7 +11343,9 @@ process.emit = noop;
 process.prependListener = noop;
 process.prependOnceListener = noop;
 
-process.listeners = function (name) { return [] }
+        process.listeners = function (name) {
+            return []
+        };
 
 process.binding = function (name) {
     throw new Error('process.binding is not supported');
@@ -11815,7 +11816,7 @@ SourceMapGenerator.prototype._validateMapping =
         && aGenerated.line > 0 && aGenerated.column >= 0
         && !aOriginal && !aSource && !aName) {
       // Case 1.
-      return;
+
     }
     else if (aGenerated && 'line' in aGenerated && 'column' in aGenerated
              && aOriginal && 'line' in aOriginal && 'column' in aOriginal
@@ -11823,7 +11824,7 @@ SourceMapGenerator.prototype._validateMapping =
              && aOriginal.line > 0 && aOriginal.column >= 0
              && aSource) {
       // Cases 2 and 3.
-      return;
+
     }
     else {
       throw new Error('Invalid mapping: ' + JSON.stringify({
@@ -11856,7 +11857,7 @@ SourceMapGenerator.prototype._serializeMappings =
     var mappings = this._mappings.toArray();
     for (var i = 0, len = mappings.length; i < len; i++) {
       mapping = mappings[i];
-      next = ''
+        next = '';
 
       if (mapping.generatedLine !== previousGeneratedLine) {
         previousGeneratedColumn = 0;
@@ -14016,7 +14017,7 @@ function SourceMapConsumer(aSourceMap) {
 
 SourceMapConsumer.fromSourceMap = function(aSourceMap) {
   return BasicSourceMapConsumer.fromSourceMap(aSourceMap);
-}
+};
 
 /**
  * The version of the source mapping spec that we are consuming.
@@ -17963,12 +17964,17 @@ module.exports = function(module) {
 /***/ }),
 
 /***/ 3:
-/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** multi ./node_modules/next-offline/register-sw-compiled.js ./node_modules/next-offline/register-sw-compiled.js ./node_modules/next-offline/register-sw-compiled.js ./node_modules/next-offline/register-sw-compiled.js ./node_modules/next-offline/register-sw-compiled.js ./node_modules/next-offline/register-sw-compiled.js ./node_modules/next-offline/register-sw-compiled.js ./node_modules/next/dist/client/next-dev ***!
-  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+    /*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+      !*** multi ./node_modules/next-offline/register-sw-compiled.js ./node_modules/next-offline/register-sw-compiled.js ./node_modules/next-offline/register-sw-compiled.js ./node_modules/next-offline/register-sw-compiled.js ./node_modules/next-offline/register-sw-compiled.js ./node_modules/next-offline/register-sw-compiled.js ./node_modules/next-offline/register-sw-compiled.js ./node_modules/next-offline/register-sw-compiled.js ./node_modules/next-offline/register-sw-compiled.js ./node_modules/next-offline/register-sw-compiled.js ./node_modules/next-offline/register-sw-compiled.js ./node_modules/next-offline/register-sw-compiled.js ./node_modules/next/dist/client/next-dev ***!
+      \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
+        __webpack_require__(/*! G:\WebProjects\nextjs\ssc\node_modules\next-offline\register-sw-compiled.js */"./node_modules/next-offline/register-sw-compiled.js");
+        __webpack_require__(/*! G:\WebProjects\nextjs\ssc\node_modules\next-offline\register-sw-compiled.js */"./node_modules/next-offline/register-sw-compiled.js");
+        __webpack_require__(/*! G:\WebProjects\nextjs\ssc\node_modules\next-offline\register-sw-compiled.js */"./node_modules/next-offline/register-sw-compiled.js");
+        __webpack_require__(/*! G:\WebProjects\nextjs\ssc\node_modules\next-offline\register-sw-compiled.js */"./node_modules/next-offline/register-sw-compiled.js");
+        __webpack_require__(/*! G:\WebProjects\nextjs\ssc\node_modules\next-offline\register-sw-compiled.js */"./node_modules/next-offline/register-sw-compiled.js");
 __webpack_require__(/*! G:\WebProjects\nextjs\ssc\node_modules\next-offline\register-sw-compiled.js */"./node_modules/next-offline/register-sw-compiled.js");
 __webpack_require__(/*! G:\WebProjects\nextjs\ssc\node_modules\next-offline\register-sw-compiled.js */"./node_modules/next-offline/register-sw-compiled.js");
 __webpack_require__(/*! G:\WebProjects\nextjs\ssc\node_modules\next-offline\register-sw-compiled.js */"./node_modules/next-offline/register-sw-compiled.js");
@@ -17992,5 +17998,5 @@ module.exports = dll_831a3634f66cb1dada0c;
 
 /***/ })
 
-},[[3,"static/runtime/webpack.js"]]]));;
+}, [[3, "static/runtime/webpack.js"]]]));
 //# sourceMappingURL=main.js.map

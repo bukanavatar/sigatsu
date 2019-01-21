@@ -1,9 +1,13 @@
+import LazyLoad from 'react-lazyload';
+
 const Footer = ()=>(
     <section className="footer">
         <div className="container">
             <div className="row">
                 <div className="col-md-3">
-                    <img src="assets/images/logo-white.png" alt="Anu" width="100" style={{marginBottom:'32px'}}/>
+                    <LazyLoad offset={100}>
+                        <img src="/static/images/logo-white.png" alt="Anu" width="100" style={{marginBottom: '32px'}}/>
+                    </LazyLoad>
                 </div>
                 <div className="col-md-3">
                     <p className="navHome">Home</p>
